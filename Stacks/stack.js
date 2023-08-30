@@ -19,6 +19,9 @@ class Stack {
     size() {
         return this.items.length;
     }
+    empty() {
+        return this.items.length === 0; 
+    }
 }
 
 module.exports = Stack;
