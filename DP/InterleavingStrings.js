@@ -22,7 +22,7 @@ function isInterleaving(A,B,C) {
         return dp[i][j] = found;
     }
      
-    return findMatch(l-1, m-1, n-1) ? 1 : 0;
+    return findMatch(l-1, m-1, n-1);
 }
 
 console.log(isInterleaving("aabcc", "dbbca", "aadbbcbcac"));
