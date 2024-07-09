@@ -10,7 +10,7 @@ $\Omega$-notation characterizes a lower bound on the asymptotic behavior of a fu
 
 ### $\Theta$-notation
 
-$\Theta$-notation characterizes a tight bound on the asymptotic behavior of a function. It says that a function grows precisely at a certain rate, based4once again4on the highest-order term. Put another way, -notation characterizes the rate of growth of the function to within a constant factor from above and to within a constant factor from below. These two constant factors need not be equal.
+$\Theta$-notation characterizes a tight bound on the asymptotic behavior of a function. It says that a function grows precisely at a certain rate, based on the highest-order term. Put another way, $\Theta$-notation characterizes the rate of growth of the function to within a constant factor from above and to within a constant factor from below. These two constant factors need not be equal.
 
 If you can show a function is both O(f(n)) and $\Theta$(f(n)) for some function f(n), then you have shown that function is $\Theta$(f(n)) For example, since the function 7n<sup>3</sup> + 100n<sup>2</sup> - 20n + 6 is both O(n<sup>3</sup>) and $\Omega$(n<sup>3</sup>), it is also $\Theta$(n<sup>3</sup>).
 
