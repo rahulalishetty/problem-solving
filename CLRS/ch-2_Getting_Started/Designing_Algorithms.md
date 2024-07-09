@@ -28,7 +28,7 @@ Here's how to set up the recurrence for T(n), the worst-case running time of mer
 
 from above we can say recurence as:
 
-## T(n) = 2T(n/2) + $\theta$(n).
+## T(n) = 2T(n/2) + $\Theta$(n).
 
 ![pic](./s1/recurrence-tree.png)
 
