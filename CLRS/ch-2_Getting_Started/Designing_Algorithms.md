@@ -16,7 +16,7 @@ When an algorithm contains a recursive call, you can often describe its running 
 
 If the problem size is small enough, say n < n0 for some constant n0 > 0, the straightforward solution takes constant time, which we write as $\theta$(1). Suppose that the division of the problem yields a subproblems, each with size n/b , that is, 1/b the size of the original. For merge sort, both a and b are 2, but we’ll see other divide-and-conquer algorithms in which a != b. It takes time T(n/b) to solve one subproblem of size n/b, and so it takes aT(n/b) time to solve all of them. If it takes D(n) time to divide the problem into subproblems and C(n) time to combine the solutions to the subproblems into the solution to the original problem, we get the recurrence
 
-![pic](./s1/recurrence-d-n-q.png)
+![pic](./s3/recurrence-d-n-q.png)
 
 ### Analysis of merge sort
 
@@ -30,12 +30,12 @@ from above we can say recurence as:
 
 ## T(n) = 2T(n/2) + $\Theta$(n).
 
-![pic](./s1/recurrence-tree.png)
+![pic](./s3/recurrence-tree.png)
 
-![pic](./s1/Inversions.png)
+![pic](./s3/Inversions.png)
 
-![pic](./s1/mergesort-inversions.png)
+![pic](./s3/mergesort-inversions.png)
 
-![pic](./s1/horner.png)
+![pic](./s3/horner.png)
 
-![pic](./s1/horner2.png)
+![pic](./s3/horner2.png)
